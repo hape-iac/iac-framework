@@ -1,0 +1,13 @@
+.state/
+.terragrunt-cache/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.terraform/
+.env
+.env.local
+.env.*.local
+.secrets/
+!.env.example
